@@ -1,0 +1,14 @@
+<view class="index-bg">
+<!--名字-->
+  <view class="index-title">{{songsong}}</view>
+  <view class="index-message">{{message}}</view>
+  <!--音乐-->
+  <view class="page-body">
+    <view class="music" style="text-align: center;">
+      <audio style="text-align: left" src="{{current.src}}" poster="{{current.poster}}" name="{{current.name}}" author="{{current.author}}" action="{{audioAction}}" controls></audio>
+    </view>
+  </view>
+  <!--图片-->
+  <image src="../../images/pay.png" class="slide-image" width="64" height="57"></image>
+
+</view>

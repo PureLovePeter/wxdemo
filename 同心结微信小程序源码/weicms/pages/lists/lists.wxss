@@ -1,0 +1,110 @@
+/**index.wxss**/
+
+.swiper {
+  overflow: hidden;
+  width: 100%;
+  height: 360rpx;
+  margin-bottom: 40rpx;
+}
+
+.swiper-item {
+  width: 100%;
+  height: 360rpx;
+}
+
+.slide-image {
+  width: 100%;
+  height: 360rpx;
+}
+
+.container {
+  padding: 5rpx;
+  align-items: flex-start;
+  display: inline-block;
+}
+
+.section {
+  margin: 10rpx;
+  width: 100%;
+}
+
+.section-header {
+  height: 60rpx;
+  font-size: 14px;
+  color: mediumvioletred;
+  line-height: 60rpx;
+  margin-bottom: 20rpx;
+}
+
+.section-header text {
+  width: 200px;
+  height: 10px;
+  color: red;
+}
+
+.title {
+  padding-left: 20rpx;
+  border-left: 2px solid #eb4f38;
+  font-size: 36rpx;
+}
+
+.more {
+  font-size: 24rpx;
+  color: #999;
+}
+
+.box {
+  display: flex;
+  width: 1250rpx;
+  height: 240rpx;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 240rpx;
+  height: 240rpx;
+  margin-right: 20rpx;
+}
+
+.item image {
+  width: 100%;
+  height: 200rpx;
+}
+
+.item text {
+  height: 48rpx;
+  padding: 0 10rpx;
+  line-height: 48rpx;
+  text-align: center;
+  font-size: 28rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.poem {
+  text-align: center;
+}
+
+.list-title {
+  margin-top: 30px;
+  font-size: 16px;
+  height: 10px;
+  color: black;
+}
+
+.list-name {
+  margin-top: 15px;
+  font-size: 11px;
+  color: darkgreen;
+}
+
+.list-content {
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 14px;
+  line-height: 1.5;
+  text-indent: 2em;
+}

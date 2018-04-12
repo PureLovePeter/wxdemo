@@ -1,0 +1,9 @@
+<!--今日头条-->
+<template name="header-list">
+    <block wx:for="{{headerList}}" wx:for-index="index" wx:for-item="vo">
+        <view class="item" bindtap="chooseLocation" data-index="{{vo}}">
+        <image src="{{vo.images}}" mode="aspectFill"/>
+        <text>{{vo.title}}</text>
+        </view>
+    </block>
+</template>

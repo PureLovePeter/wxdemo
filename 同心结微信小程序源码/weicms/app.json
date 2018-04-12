@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/lists/lists",
+    "pages/detail/detail",
+    "pages/aboutme/aboutme",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/form/form"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "红楼诗话",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/lists/lists",
+      "text": "同心首",
+      "iconPath":"images/1.png",
+      "selectedIconPath":"images/5.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "同心部",
+      "iconPath":"images/2.png",
+      "selectedIconPath":"images/6.png"
+    }, 
+    {
+    "pagePath": "pages/form/form",
+    "text": "同心结",
+    "iconPath": "images/3.png",
+    "selectedIconPath": "images/7.png"
+    },
+    {
+      "pagePath": "pages/aboutme/aboutme",
+      "text": "同心窝",
+      "iconPath": "images/4.png",
+      "selectedIconPath": "images/8.png"
+    }    
+    ]
+  }  
+}

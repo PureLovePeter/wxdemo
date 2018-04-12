@@ -1,0 +1,26 @@
+.index-bg {
+  display: block;
+  text-align:center;
+}
+
+.index-title {
+  margin-top: 15px;
+  text-align: center;
+  font-family: "圆体"
+}
+.index-message{
+  margin-top: 15px;
+  text-align: center;
+  font-size: 11px;
+  color: darkgray;
+}
+
+.slide-image{
+  text-align: center;
+}
+.page-body{
+   margin-top: 40px;
+}
+.slide-image{
+  margin-top: 20px;
+}

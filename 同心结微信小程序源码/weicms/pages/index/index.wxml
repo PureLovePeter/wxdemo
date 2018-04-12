@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="index-bg">
+  <video id="myVideo" src="http://183.131.60.25/vhot2.qqvideo.tc.qq.com/o05024yguwy.m701.mp4?vkey=CD20199F642C296D00FB776652729E34A9730439961935353B933DB7EA6F7B2E0F37CB90D086D75042D1947DDBEDBB92F2C4AD2B8B7613B0495F2EC70F26109B84F1B09632AC7CB9A520C3EEA16D0FCBA5299D12D3501B9B&br=29&platform=2&fmt=auto&level=0&sdtfrom=v1010&guid=791f8a1ffaa86818f0d652f1d01e3987"
+    binderror="videoErrorCallback" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+  <view class="index-title">对招聘结果负责的公司:猎上网</view>
+   <view class="index-name">猎上网CEO:辛小蝶</view>
+  <view class="index-content">猎上网是一个整合了全国各个行业猎头资源的平台，解决了传统猎头无法跨行业、跨区域、规模化作业的困境，同时也解决了网络招聘无法涉足中高端职位的瓶颈。目前，已有数千家企业通过猎上网平台，甄选并管理猎头服务供应商，快捷高效的找到了他们所需要的人才。目前平台也已经聚集了中国1300多家猎头公司以及10000多名猎头。在过去的一年中，这些猎头公司，已经在平台上取得了丰厚的收入。</view>
+</view>

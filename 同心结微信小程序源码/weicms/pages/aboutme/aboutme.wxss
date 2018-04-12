@@ -1,0 +1,70 @@
+.about {
+}
+
+.about-wei {
+  text-align: center;
+}
+
+.about-img {
+  display: flex;
+}
+
+.about-top {
+  display: inline;
+}
+
+.about-headImage {
+  margin-top: 15px;
+  margin-left: 15px;
+  border-radius: 50%;
+}
+
+.about-title {
+  margin-left: 10px;
+  margin-top: 30px;
+  font-size: 14px;
+  height: 10px;
+  width: 200px;
+  color: black;
+}
+
+.about-sex {
+  margin-left: 10px;
+  margin-top: 20px;
+  font-size: 12px;
+  height: 10px;
+  width: 200px;
+  color: black;
+}
+.about-bgImage{
+    margin-top: 10px;
+}
+
+.about-content {
+  text-indent: 2em;
+  font-size: 16px;
+  line-height: 30px;
+  height: 10px;
+  margin-top: 12px;
+}
+.about-user{
+    margin-top: 30px;
+    font-size: 11px;
+    color: darkgreen;
+}
+
+.about-addr {
+  font-size: 16px;
+  line-height: 2;
+  text-indent: 2em;
+  margin-top: 10px;
+}
+
+.about-tab {
+  margin-top: 10px;
+}
+
+.in-img {
+  width: 124px;
+  height: 110px;
+}

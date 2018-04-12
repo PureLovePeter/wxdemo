@@ -1,0 +1,33 @@
+<!--引入模板-->
+<import src="../template/template" />
+
+<!--banner-->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<!--scroll-view-->
+<scroll-view class="container" scroll-y="true">
+  <!--今日头条-->
+  <view class="section">
+    <view class="section-header">
+      <text>红楼诗话</text>
+    </view>
+    <scroll-view class="scroll-view" scroll-x="true">
+      <view class="box">
+        <template is="header-list" data="{{headerList}}" />
+      </view>
+    </scroll-view>
+  </view>
+  <view class="poem">
+    <view class="list-title">{{title}}</view>
+    <view class="list-name">{{name}}</view>
+    <view class="list-content">{{content}}</view>
+  </view>
+
+
+</scroll-view>

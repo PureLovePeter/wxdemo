@@ -1,0 +1,31 @@
+/**index.wxss**/
+.index-bg {
+  display: block;
+  text-align:center;
+}
+
+video{
+  margin-top: 20px;
+}
+.index-title{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: orangered;
+}
+.index-name{
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: darkgreen;
+}
+.index-content{
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  line-height: 1.5;
+  text-indent: 2em;
+}
